@@ -1,12 +1,14 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-import { vMaska } from "maska"
+import { vMaska } from 'maska'
 const options = {
-  mask: 'HHHHHH', reversed: false, eager: true,
+  mask: 'HHHHHH',
+  reversed: false,
+  eager: true,
   tokens: { H: { pattern: /[0-9a-fA-F]/, uppercase: true } }
-};
-const myValue = ref('');
+}
+const myValue = ref('')
 </script>
 
 <template>

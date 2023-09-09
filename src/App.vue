@@ -7,7 +7,14 @@ import NavBar from './components/NavBar.vue'
 <template>
   <Header></Header>
   <NavBar></NavBar>
-  <RouterView />
+  <div class="screen-internal">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.screen-internal {
+  margin-left: 250px;
+  padding-top: 70px;
+}
+</style>
