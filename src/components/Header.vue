@@ -23,6 +23,7 @@ const userStore = useUsersStore()
 header {
   margin-left: 200px;
   width: 100%-200px;
+  top: 0;
 }
 
 /* Add a black background color to the top navigation */

@@ -15,6 +15,7 @@ import NavBar from './components/NavBar.vue'
 <style scoped>
 .screen-internal {
   margin-left: 250px;
-  padding-top: 70px;
+  margin-top: 70px;
+  height: 100vh;
 }
 </style>
