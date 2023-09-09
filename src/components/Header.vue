@@ -22,7 +22,7 @@ const userStore = useUsersStore()
 <style scoped>
 header {
   margin-left: 200px;
-  width: 100%-200px;
+  width: 100%;
   top: 0;
 }
 
